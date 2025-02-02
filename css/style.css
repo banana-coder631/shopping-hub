@@ -48,4 +48,31 @@ body{
     border: none;
     border-radius: 30px;
     padding: 0;
+    cursor: pointer;
+}
+
+.login__notice{
+    font-size: 13px;
+}
+.login__notice__text{
+    line-height: 18px;
+    margin: 0;
+}
+.login__help{
+    margin-top: 28px;
+}
+
+.login__business{
+    border-top: 1px solid black;
+    margin-top: 25px;
+}
+.login__business__title{
+    margin: 18px 0;
+}
+
+.link--teal{
+    color: teal;
+}
+.link--underline{
+    text-decoration: underline;
 }

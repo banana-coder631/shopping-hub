@@ -14,15 +14,32 @@
     </header>
 
     <main class="login-main">
-        <form class="login__form" action="#">
+        <form class="login__form" action="#" method="post">
             <h1 class="login__title">Log in</h1>
             <label for="email">Email or Phone number</label>
-            <input id="email" type="text" placeholder="Email or phone number" maxlength="20" required>
+            <input id="email" name="email" type="text" placeholder="Email or phone number" maxlength="20" required>
             
             <label for="psw">Password</label>
-            <input id="psw" type="password" placeholder="password" maxlength="15" required>
+            <input id="psw" name="password" type="password" placeholder="password" maxlength="15" required>
             
             <input type="submit" value="Log in">
+
+            <div class="login__notice">
+                <p class="login__notice__text">By continuing, you agree to shopping hub's 
+                    <a href="#" class="link--teal link--underline">Conditions of Use</a> and 
+                    <a href="#" class="link--teal link--underline">Privacy Notice </a> 
+                </p>
+            </div>
+
+            <div class="login__help">
+                <i class="fa-solid fa-chevron-down"></i>
+                <a href="#" class="link--teal">Need help?</a>
+            </div>
+
+            <div class="login__business">
+                <h4 class="login__business__title">Buying for work?</h4>
+                <a href="#" class="link--teal">Shop on shopping hub Business</a>
+            </div>
         </form>
 
     </main>
