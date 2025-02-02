@@ -102,3 +102,17 @@ body{
     border: 1px solid black;
     border-radius: 20px;
 }
+
+.login-footer{
+    border-top: 1px solid black;
+    margin: 12px 0;
+}
+.login-footer__list{
+    display: flex;
+    justify-content: center;
+    margin: 42px 0;
+}
+.login-footer__item{
+    margin: 0 27px;
+    font-size: 12px;
+}
