@@ -1,8 +1,8 @@
 .home-header{
     color: white;
-    min-width: 1000px;
     position: fixed;
     width: 100%;
+    min-width: 1000px;
 }
 
 .home-header__top{
@@ -19,7 +19,7 @@
 }
 .home-header__location-icon{
     margin-right: 5px;
-    margin-top: 15px;
+    margin-top: 9px;
 }
 .home-header__location-text{
     display: flex;
@@ -30,6 +30,8 @@
 .home-header__search-form{
     width: 60%;
     position: relative;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 .home-header__search-input{
     height: 40px;
@@ -39,13 +41,39 @@
     width: 95%;
 }
 .home-header__search-button{
-    height: 42px;
     border: none;
     width: 45px;
+    height: 42px;
     border-radius: 5px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     background-color: #FEBD69;
     position: absolute;
     right: 4%;
+}
+
+.home-header__account,
+.home-header__orders{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.home-header__account{
+    min-width: 150px;
+}
+.home-header__orders{
+    min-width: 100px;
+}
+.home-header__location-deliver,
+.home-header__account-greeting,
+.home-header__orders-returns{
+    font-size: 10px;
+    color: hsl(0, 0%, 75%);
+}
+
+.home-header__location-country,
+.home-header__account-lists,
+.home-header__orders-orders{
+    font-size: 15px;
 }
