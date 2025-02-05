@@ -1,0 +1,11 @@
+.link--teal{
+    color: teal;
+}
+.link--underline{
+    text-decoration: underline;
+}
+
+a:hover{
+    color: hsl(24, 100%, 50%);
+    text-decoration: underline;
+}
