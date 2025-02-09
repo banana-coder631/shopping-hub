@@ -1,0 +1,14 @@
+#home{
+    background-color: #E3E6E6;
+    height: 1000vh;
+}
+
+.home-main{
+    padding-top: 100px;
+}
+
+.home-main__display:first-child{
+    max-width: 1500px;
+    min-width: 1000px;
+    margin: 0 auto;
+}
