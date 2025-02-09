@@ -33,6 +33,7 @@
     position: relative;
     padding: 0 20px;
     box-sizing: border-box;
+    flex-grow: 1;
 }
 .home-header__search-input{
     height: 40px;
