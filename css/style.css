@@ -9,3 +9,7 @@ body{
     font-variation-settings:
     "wdth" 100;
 }
+:root{
+    --main-color: #232F3E;
+    --main-border: 1px solid hsla(0, 0%, 0%, 0.3);
+}

@@ -1,12 +1,11 @@
-.home-header{
+.header{
     color: white;
     position: fixed;
     width: 100%;
     min-width: 1000px;
     z-index: 99;
 }
-
-.home-header__top{
+.header__top{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -14,35 +13,33 @@
     height: 60px;
     padding: 0 20px;
 }
-.home-header__location{
+.header__location{
     display: flex;
     min-width: 160px;
 }
-.home-header__location-icon{
+.header__location-icon{
     margin-right: 5px;
     margin-top: 9px;
 }
-.home-header__location-text{
+.header__location-text{
     display: flex;
     flex-direction: column;
 }
-
-
-.home-header__search-form{
+.header__search-form{
     width: 60%;
     position: relative;
     padding: 0 20px;
     box-sizing: border-box;
     flex-grow: 1;
 }
-.home-header__search-input{
+.header__search-input{
     height: 40px;
     border: none;
     border-radius: 5px;
     padding-left: 5px;
     width: 95%;
 }
-.home-header__search-button{
+.header__search-button{
     border: none;
     width: 45px;
     height: 42px;
@@ -53,49 +50,45 @@
     position: absolute;
     right: 4%;
 }
-
-.home-header__account,
-.home-header__orders{
+.header__account,
+.header__orders{
     display: flex;
     flex-direction: column;
     padding: 0 10px;
     box-sizing: border-box;
 }
-.home-header__account{
+.header__account{
     min-width: 150px;
 }
-.home-header__orders{
+.header__orders{
     min-width: 100px;
 }
-.home-header__location-deliver,
-.home-header__account-greeting,
-.home-header__orders-returns{
+.header__location-deliver,
+.header__account-greeting,
+.header__orders-returns{
     font-size: 10px;
     color: hsl(0, 0%, 75%);
 }
-
-.home-header__location-country,
-.home-header__account-lists,
-.home-header__orders-orders,
-.home-header__cart-text{
+.header__location-country,
+.header__account-lists,
+.header__orders-orders,
+.header__cart-text{
     font-size: 15px;
 }
-
-.home-header__account-lists i{
+.header__account-lists i{
     color: hsl(0, 0%, 75%);
     margin-left: 2px;
 }
-
-.home-header__cart{
+.header__cart{
     padding: 0 10px;
     display: flex;
     align-items: center;
 }
-.home-header__cart-icon{
+.header__cart-icon{
     position: relative;
     margin-right: 3px;
 }
-.home-header__cart-count{
+.header__cart-count{
     position: absolute;
     color: orange;
     font-size: 20px;
@@ -103,24 +96,21 @@
     right: 5px;
     font-weight: 700;
 }
-.home-header__cart-text{
+.header__cart-text{
     margin-top: 10px;
 }
-
-
-.home-header__nav{
-    background-color: #232F3E;
+.header__nav{
+    background-color: var(--main-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 40px;
     padding: 0 20px;
 }
-.home-header__nav-list{
+.header__nav-list{
     margin: 0;
     display: flex;
 }
-
-.home-header__nav-item{
+.header__nav-item{
     margin-right: 18px;
 }
