@@ -34,7 +34,7 @@
 }
 
 .login-main__form input[type="submit"]{
-    background-color: hsl(50, 100%, 54%);
+    background-color: var(--btn-color);
     border: none;
     border-radius: 30px;
     padding: 0;
@@ -46,7 +46,7 @@
     outline-offset: 2px;
 }
 .login-main__form input[type="submit"]:hover{
-    background-color: hsl(50, 100%, 48%);
+    background-color: var(--btn-dark-color);
 }
 
 .login-main__notice{

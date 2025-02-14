@@ -86,9 +86,7 @@
     min-height: 100%;
     width: 100%;
 }
-.home-main__category-items > a{
-    color: teal;
-}
+
 .home-main__display:last-child{
     padding: 0 20px;
 }

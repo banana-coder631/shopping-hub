@@ -6,11 +6,22 @@
 
 .footer__top{
     color: white;
-    background-color: #485769;
+    background-color: hsl(213, 19%, 35%);
     height: 50px;
     width: 100%;
     border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
+
+.footer__top:hover{
+    background-color: hsl(213, 19%, 32%);
+}
+
+.footer__top:active{
+    background-color: hsl(213, 19%, 28%);
+}
+
 .footer__main{
     background-color: var(--main-color);
     height: 370px;

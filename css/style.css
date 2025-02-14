@@ -12,4 +12,6 @@ body{
 :root{
     --main-color: #232F3E;
     --main-border: 1px solid hsla(0, 0%, 0%, 0.3);
+    --btn-color: hsl(50, 100%, 54%);
+    --btn-dark-color: hsl(50, 100%, 48%);
 }
