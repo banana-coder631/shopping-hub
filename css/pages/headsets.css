@@ -6,6 +6,26 @@
     margin: 0 auto;
 }
 
+@keyframes fadeMoveRight {
+    from{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
+@keyframes fadeMoveLeft {
+    from{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
 
 .headsets-main__filter{
     width: 15%;
@@ -19,6 +39,7 @@
 .headsets-main__filter-style{
     border-bottom: var(--main-border);
     margin-bottom: 20px;
+    animation: fadeMoveRight 0.8s ease-in-out;
 }
 
 .headsets-main__filter-title{
@@ -57,7 +78,17 @@
     display: flex;
     margin-top: 10px;
     min-width: 800px;
+    animation: fadeMoveLeft 1s ease-in-out backwards;
+    animation-delay: 0.8s;
 }
+
+.headsets-main__product:nth-child(2){
+    animation-delay: 1.2s;
+}
+.headsets-main__product:last-child{
+    animation-delay: 1.6s;
+}
+
 .headsets-main__product img{
     width: 240px;
     height: 320px;
