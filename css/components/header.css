@@ -112,5 +112,10 @@
     display: flex;
 }
 .header__nav-item{
-    margin-right: 18px;
+    margin-right: 3px;
+}
+
+.header__nav-item a{
+    padding: 9px 10px;
+    box-sizing: border-box;    
 }

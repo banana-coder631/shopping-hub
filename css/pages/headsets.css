@@ -9,6 +9,7 @@
 
 .headsets-main__filter{
     width: 15%;
+    min-width: 180px;
     padding-left: 10px;
     padding-right: 25px;
     box-sizing: border-box;
@@ -126,4 +127,8 @@
     background-color: var(--btn-color);
     border: none;
     margin-bottom: 5px;
+    cursor: pointer;
+}
+.headsets-main__product-purchase:hover{
+    background-color: var(--btn-dark-color);
 }

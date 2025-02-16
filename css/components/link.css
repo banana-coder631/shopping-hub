@@ -5,7 +5,13 @@
     text-decoration: underline;
 }
 
-a:hover{
+main a:hover,
+.login-prompt__new a:hover{
     color: hsl(24, 100%, 50%);
     text-decoration: underline;
+}
+
+.header__nav a:hover{
+    border: 1px solid white;
+    border-radius: 3px;
 }
