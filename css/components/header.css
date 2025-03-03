@@ -54,7 +54,7 @@
     border-bottom-left-radius: 0;
     background-color: #FEBD69;
     position: absolute;
-    right: 4%;
+    right: 5%;
 }
 .header__account,
 .header__orders{
@@ -138,4 +138,16 @@
 .header__nav-item a{
     padding: 9px 10px;
     box-sizing: border-box;    
+}
+
+@media screen and (orientation: portrait){
+    .header__nav-item .fa-bars{
+        display: none;
+    }
+}
+
+@media screen and (orientation: landscape){
+    .header__nav-item:nth-child(-n+5){
+        display: none;
+    }
 }
