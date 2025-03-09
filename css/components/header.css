@@ -140,7 +140,7 @@
 }
 
 @media screen and (orientation: portrait){
-    .header__nav-item .fa-bars{
+    .header__nav-item:last-child{
         display: none;
     }
 }
