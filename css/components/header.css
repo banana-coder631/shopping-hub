@@ -41,7 +41,6 @@
     outline: none;
     transition: all 0.2s ease-in-out;
 }
-
 .header__search-input:focus{
     background-color: hsl(0, 0%, 90%);
 }
