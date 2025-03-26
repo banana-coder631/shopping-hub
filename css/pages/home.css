@@ -4,7 +4,7 @@
 .home-main{
     padding-top: 100px;
     max-width: 1500px;
-    min-width: 1000px;
+    min-width: 50%;
     margin: 0 auto;
     position: relative;
 }
@@ -58,6 +58,19 @@
         width: 32%;
     }
 }
+
+@media screen and (max-width: 850px){
+    .home-main__category{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 475px){
+    .home-main__category{
+        width: 100%;
+    }
+}
+
 .home-main__category-title{
     margin: 0;
     font-size: 21px;
@@ -117,6 +130,13 @@
     height: 200px;
     gap: 15px;
 }
+
+@media screen and (max-width: 850px){
+    .home-main__best-list{
+        gap: 0;
+    }
+}
+
 .home-main__best-list img{
     width: 20%;
     height: 100%;
@@ -125,4 +145,10 @@
 
 .home-main__best-list img:hover{
     transform: scale(1.1);
+}
+
+@media screen and (max-width: 420px){
+    .home-main__best-list img{
+        height: 90%;
+    }
 }

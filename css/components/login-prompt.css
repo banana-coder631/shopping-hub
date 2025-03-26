@@ -7,13 +7,14 @@
     margin-top: 20px;
     padding: 40px 0;
     width: 100%;
-    min-width: 1000px;
+    min-width: 50%;
     background-color: white;
 }
 .login-prompt__title{
     margin: 0;
     margin-bottom: 14px;
     font-size: 25px;
+    text-align: center;
 }
 .login-prompt__btn{
     border: none;
@@ -24,6 +25,8 @@
     background-color: var(--btn-color);
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    width: 30%;
+    min-width: 200px;
 }
 .login-prompt__btn:hover{
     background-color: var(--btn-dark-color);
